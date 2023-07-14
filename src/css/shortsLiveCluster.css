@@ -1,0 +1,18 @@
+.cluster-header{
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+}
+.cluster-text{
+  font-size: 14px;
+  font-weight: 275;
+  padding-bottom: 16px;
+  color: black;
+}
+
+.cards-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);;
+  column-gap: 38px;
+  padding-bottom: 52px;
+}

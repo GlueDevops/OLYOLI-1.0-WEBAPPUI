@@ -1,14 +1,12 @@
 import React from "react";
-import TextContentBanner from "../Elements/TextContentBanner";
-
+import ShortsCluster from "../Elements/ShortsCluster/ShortsCluster";
 const Shorts = () => {
   return (
-    <>
-      <TextContentBanner
-        head={"Shorts"}
-        text={"Popular belief, Lorem is  simply random text."}
-      />
-    </>
+    <div className="pt-5 mt-5">
+      <ShortsCluster />
+      <ShortsCluster />
+      <ShortsCluster />
+    </div>
   );
 };
 

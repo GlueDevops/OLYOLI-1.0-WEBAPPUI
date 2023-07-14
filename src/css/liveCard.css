@@ -1,0 +1,57 @@
+.live-card{
+  background-color: #F8F5F5;
+  border: 1px solid #F8F5F5;
+  border-radius: 16px;
+  width: 343px;
+  height: 236px;
+  padding: 12px 22px 0;
+}
+
+.live-card-img{
+  width: 55px;
+  height: 55px;
+  background-color: #ccc;
+  border-radius: 50%;
+}
+
+.live-card-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 36px;
+}
+
+.live-card-join{
+  border: 2px solid black;
+  border-radius: 1rem;
+  background-color: black;
+  color: white; 
+  padding: 3px 15px;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.live-card-category{
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+}
+.live-card-date{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+.live-card-description{
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  
+}
+
+.live-card-user{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+}

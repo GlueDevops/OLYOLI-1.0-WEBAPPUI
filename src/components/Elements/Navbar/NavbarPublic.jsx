@@ -4,7 +4,7 @@ const Navbar = () => {
   const { pathname } = useLocation();
   return (
     <nav>
-      <div className='container-xxl d-flex align-items-center justify-content-between'>
+      <div className='navbar-container d-flex align-items-center justify-content-between'>
         {/* ----- Logo and left buttons containers ----- */}
         <div className='d-flex align-items-center gap-3'>
           {/* ----- Logo ----- */}
@@ -16,7 +16,7 @@ const Navbar = () => {
                 className='h-100'
               />
             </div>
-            <span className='fs-1 fw-bolder'>OLYOLI</span>
+            <span className='navbar-icon-text'>OLYOLI</span>
           </div>
           {/* ----- Live & Shorts Toggle buttons ----- */}
           <div className='d-flex gap-2'>
@@ -42,14 +42,14 @@ const Navbar = () => {
         </div>
         {/* ----- Right buttons containers ----- */}
         <div className='d-flex gap-2'>
-          <button className='navbar-menu-btn'>
+          {/* <button className='navbar-menu-btn'>
             <span className='material-symbols-outlined navbar-menu-btn-icon'>
               menu
             </span>
             Menu
-          </button>
-          <button className='navbar-btn'>Register</button>
+          </button> */}
           <button className='navbar-btn'>Login</button>
+          <button className='navbar-btn'>Register</button>
         </div>
       </div>
     </nav>

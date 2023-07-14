@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="container-xxl layout-spacing">
+      <div className="overall-container">
         <Routes>
           <Route path='/' element={<Shorts />} />
           <Route path='/shorts' element={<Shorts />} />

@@ -1,14 +1,13 @@
 import React from 'react'
-import TextContentBanner from "../Elements/TextContentBanner";
+import LiveCluster from '../Elements/LiveCluster/LiveCluster';
 
 const Live = () => {
   return (
-    <>
-      <TextContentBanner
-        head={"Connect on live"}
-        text={"Popular belief, Lorem is  simply random text."}
-      />
-    </>
+    <div className="pt-5 mt-5">
+      <LiveCluster />
+      <LiveCluster />
+      <LiveCluster />
+    </div>
   )
 }
 
