@@ -1,0 +1,42 @@
+.shorts-view-nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 50px 0;
+}
+
+.shorts-view-nav-btn{
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  width: 117px;
+  padding: 5px 14px;
+  border-radius: 100px;
+  box-shadow: rgb(0 0 0 /25%) 0px 4px 4px 0px;
+  border: none;
+}
+.shorts-view-arrow-next{
+  width: 39px;
+  margin: 0  0 0 9px;
+}
+.shorts-view-arrow-back{
+  width: 39px;
+  margin: 0 9px 0 0 ;
+}
+
+.shorts-view-home-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.shorts-view-home-btn{
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: black;
+  border: 2px solid white;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+}

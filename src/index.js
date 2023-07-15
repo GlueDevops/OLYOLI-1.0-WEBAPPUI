@@ -14,6 +14,11 @@ import './css/textContentBanner.css';
 import './css/shortsLiveCluster.css';
 import './css/shortsCard.css';
 import './css/liveCard.css';
+import './css/searchbar.css';
+import './css/footer.css';
+import './css/shortsView.css';
+import './css/shortsViewVideo.css';
+import './css/shortsViewFaq.css';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
