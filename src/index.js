@@ -19,6 +19,11 @@ import './css/footer.css';
 import './css/shortsView.css';
 import './css/shortsViewVideo.css';
 import './css/shortsViewFaq.css';
+import './css/login.css';
+import './css/registration.css';
+import './css/logoText.css';
+import './css/forgotPassword.css';
+import './css/createShorts.css';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

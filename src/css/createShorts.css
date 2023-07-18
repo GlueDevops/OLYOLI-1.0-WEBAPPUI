@@ -1,0 +1,79 @@
+.create-shorts-heading{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+.create-shorts-paragraph{
+  text-align: center;
+  font-size: 10px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.upload-btn-container{
+  text-align: center;
+}
+.upload-btn {
+  width: fit-content;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin: auto;
+  text-align: center;
+}
+.upload-btn input[type="file"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 70px;
+  height:70px;
+  /* text-align: right; */
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  cursor: inherit;
+  display: block;
+}
+
+.upload-icon{
+  font-size: 70px;
+}
+.upload-image-text{
+  text-align: center;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.upload-image-info{
+  text-align: center;
+  font-size: 8px;
+  font-weight: 400;
+  margin-bottom: 44px;
+}
+
+.input-bio{
+  max-height: 58px;
+  min-height: 58px;
+}
+
+.create-shorts-terms{
+  text-align: center;
+  max-width: 311px;
+  font-size: 8px;
+  font-weight: 300;
+  margin-top: 100px;
+  margin-bottom: 5px;
+}
+@media (max-width:400px) {
+  .create-shorts-terms{
+    font-size: 6px;
+    margin-top: 162px;
+  }
+}
+.create-shorts-terms a{
+  font-weight: 700;
+}

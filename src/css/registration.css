@@ -1,0 +1,33 @@
+.registration-inputs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+.registration-terms{
+  width: 311px;
+  text-align: center;
+  font-size: 9px;
+  font-weight: 300;
+  margin-top: 15px;
+}
+.registration-terms a{
+  font-weight: 700;
+}
+@media (max-width:400px) {
+  .registration-terms{
+    font-size: 6px;
+  }
+}
+.login-text{
+    margin-top: 83px;
+    font-size: 12px;
+    font-weight: 275;
+    text-align: center;
+    margin-bottom: 8px;
+}
+@media (max-width:400px) {
+  .login-text{
+    margin-top: 105px;
+}
+}

@@ -5,21 +5,21 @@ const ShortsView = () => {
   return (
     <div>
       <div className="shorts-view-nav">
-        <button className="shorts-view-nav-btn">
+        <button className="nav-btn">
           {" "}
           <img
             src={require("../../assets/images/back.png")}
             alt=''
-            className='shorts-view-arrow-back'
+            className='arrow-back'
           />
           Back{" "}
         </button>
-        <button className="shorts-view-nav-btn">
+        <button className="nav-btn">
           Next{" "}
           <img
             src={require("../../assets/images/next.png")}
             alt=''
-            className='shorts-view-arrow-next'
+            className='arrow-next'
           />
         </button>
       </div>
