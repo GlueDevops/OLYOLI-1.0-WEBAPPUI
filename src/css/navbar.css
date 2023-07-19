@@ -48,9 +48,13 @@ nav{
 }
 
 .navbar-btn:hover{
-  color: white;
+  color: white ;
   border: 2px solid black;
   background-color: black;
+}
+.navbar-btn:hover a{
+  transition-duration: 200ms;
+  color: white ;
 }
 
 .navbar-btn.active{

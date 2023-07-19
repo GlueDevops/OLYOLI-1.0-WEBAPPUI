@@ -1,0 +1,33 @@
+.live-video-container{
+  border: 2px solid #ccc;
+  border-radius: 22px;
+  width: 360px;
+  height: 600px;
+  margin: auto;
+  position: relative;
+}
+
+.live-video-interact{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 14px;
+  bottom: 0;
+
+}
+
+.live-video-interact-btn{
+  width: 25px;
+  height: 25px;
+  background-color: #ccc;
+}
+.multiple-interact-btns{
+  display: flex;
+  gap: 14px;
+  flex-direction: column;
+}
+.single-interact-btn{
+  display: flex;
+  align-items: flex-end;
+}

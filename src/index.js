@@ -24,6 +24,13 @@ import './css/registration.css';
 import './css/logoText.css';
 import './css/forgotPassword.css';
 import './css/createShorts.css';
+import './css/createLive.css';
+import './css/userProfile.css';
+import './css/myProfile.css';
+import './css/profileShortsCard.css';
+import './css/profileShortsCluster.css';
+import './css/myProfileSettings.css';
+import './css/liveRoom.css';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

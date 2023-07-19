@@ -48,8 +48,12 @@ const Navbar = () => {
             </span>
             Menu
           </button> */}
-          <button className='navbar-btn'>Login</button>
-          <button className='navbar-btn'>Register</button>
+          <button className='navbar-btn'>
+            <Link to='/login'>Login</Link>
+          </button>
+          <button className='navbar-btn'>
+            <Link to='registration'>Register</Link>
+          </button>
         </div>
       </div>
     </nav>
