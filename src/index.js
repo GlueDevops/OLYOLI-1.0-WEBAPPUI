@@ -18,7 +18,6 @@ import './css/searchbar.css';
 import './css/footer.css';
 import './css/shortsView.css';
 import './css/shortsViewVideo.css';
-import './css/shortsViewFaq.css';
 import './css/login.css';
 import './css/registration.css';
 import './css/logoText.css';
@@ -31,6 +30,11 @@ import './css/profileShortsCard.css';
 import './css/profileShortsCluster.css';
 import './css/myProfileSettings.css';
 import './css/liveRoom.css';
+import './css/notifications.css';
+import './css/notification.css';
+import './css/faqs.css';
+import './css/welcome.css';
+import './css/follower.css';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -8,6 +8,14 @@ const MyProfileShortsCluster = () => {
       <div className='profile-cards-container'>
         <MyProfileShortsCard />
         <MyProfileShortsCard />
+        <MyProfileShortsCard />
+        <MyProfileShortsCard />
+        <MyProfileShortsCard />
+        <MyProfileShortsCard />
+        <MyProfileShortsCard />
+        <MyProfileShortsCard />
+        <MyProfileShortsCard />
+        <MyProfileShortsCard />
       </div>
     </section>
   );

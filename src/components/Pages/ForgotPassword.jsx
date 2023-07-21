@@ -77,7 +77,9 @@ const ForgotPassword = () => {
             <span className='d-block fw-bold'>Successfully</span>
           </p>
           <button className='secondary-btn forgot-password-login'>
-            <Link to='/login'>Please login into your account</Link>
+            <Link to='/login' className='d-block'>
+              Please login into your account
+            </Link>
           </button>
         </div>
       ) : null}

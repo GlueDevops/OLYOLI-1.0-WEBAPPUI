@@ -1,22 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
+import Faqs from "../Elements/Faqs";
 
 const LiveRoom = () => {
+  const [toggleFaqs, setToggleFaqs] = useState(true);
   return (
-    <main className='secondary-spacing'>
-      <div className='live-video-container'>
+    <div className='live-room-container'>
+      <div className='live-room-video'>
+        {toggleFaqs ? <Faqs setToggleFaqs={setToggleFaqs} /> : null}
         <div className='live-video-interact'>
-          <div className="multiple-interact-btns">
+          <div className='multiple-interact-btns'>
             <div className='live-video-interact-btn'></div>
             <div className='live-video-interact-btn'></div>
             <div className='live-video-interact-btn'></div>
             <div className='live-video-interact-btn'></div>
           </div>
-          <div className="single-interact-btn">
-            <div className='live-video-interact-btn'></div>
-          </div>
+          <b className='single-interact-btn'>
+            <button
+              className='live-video-faqs-btn'
+              onClick={() => setToggleFaqs(true)}></button>
+          </b>
         </div>
       </div>
-    </main>
+    </div>
   );
 };
 

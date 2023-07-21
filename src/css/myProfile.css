@@ -91,3 +91,6 @@
   gap: 10px;
   margin: 15px 0;
 }
+.my-profile-nav a.active{
+  text-decoration: underline;
+}

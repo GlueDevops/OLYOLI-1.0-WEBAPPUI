@@ -22,7 +22,7 @@ const Login = () => {
         </div>
         <p className='registration-text'>Don't have an account?</p>
         <button className='secondary-btn text-center'>
-          <Link to='/registration'>Register now</Link>
+          <Link className="d-block" to='/registration'>Register now</Link>
         </button>
       </form>
     </main>

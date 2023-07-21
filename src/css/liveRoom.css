@@ -1,12 +1,40 @@
-.live-video-container{
-  border: 2px solid #ccc;
-  border-radius: 22px;
-  width: 360px;
-  height: 600px;
+.live-room-container{
+  height: 90vh;
+  display: flex;
   margin: auto;
-  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
-
+@media (max-width:450px) {
+  .live-room-container{
+    margin-top: 0;
+    height: 100vh;
+  }
+}
+.live-room-video{
+  position: relative;
+  width: 437px;
+  height:841px;
+  border-radius: 16px;
+  border: 1px solid #ccc;
+}
+@media (max-height:860px) and (min-width:450px) {
+  .live-room-video{
+    width: 311px;
+    height:560px;
+  }
+}
+@media (max-width:450px) {
+  .live-room-video{
+    width: 100vw;
+    height:100vh;
+    margin-bottom: 5px;
+    border-radius: 0;
+    flex: 1;
+    border: none;
+  }
+}
 .live-video-interact{
   position: absolute;
   display: flex;
@@ -30,4 +58,10 @@
 .single-interact-btn{
   display: flex;
   align-items: flex-end;
+}
+.live-video-faqs-btn{
+  width: 25px;
+  height: 25px;
+  background-color: #ccc;
+  border: none;
 }

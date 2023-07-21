@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink, Outlet } from "react-router-dom";
 import BackArrow from "../Widgets/BackArrow";
 import UserProfileShortsCluster from "../Elements/ProfileShortsCluster/UserProfileShortsCluster";
 const UserProfile = () => {
@@ -31,14 +31,13 @@ const UserProfile = () => {
           </p>
         </div>
         {/* ------------ Bottom section of User profile -------------- */}
-        <div className='user-profile-nav'>
-          <Link>Shorts</Link>
-          <Link>Live</Link>
-          <Link>Followers</Link>
-          <Link>Following</Link>
-        </div>
-        <UserProfileShortsCluster />
-        <UserProfileShortsCluster />
+        <nav className='user-profile-nav'>
+          <NavLink to='shorts'>Shorts</NavLink>
+          <NavLink to='lives'>Lives</NavLink>
+          <NavLink to='followers'>Followers</NavLink>
+          <NavLink to='following'>Following</NavLink>
+        </nav>
+        <Outlet />
       </div>
     </main>
   );

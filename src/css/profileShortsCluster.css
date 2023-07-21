@@ -21,16 +21,20 @@
 }
 
 .profile-cards-container{
-  display: grid;
-  justify-content: center;
-  grid-template-columns: repeat(2, 1fr);;
-  column-gap: 12px;
+  width: 100%;
+  padding-right: 10px;
+  display: flex;
+  overflow-x: auto;
+  gap: 38px;
+  scroll-snap-type: x mandatory;
+  white-space: nowrap;
   padding-bottom: 15px;
+}
+.profile-cards-container::-webkit-scrollbar {
+  display: none;
 }
 @media (max-width:320px) {
   .profile-cards-container{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);;
     column-gap: 12px;
     row-gap: 10px;
     padding-bottom: 15px;

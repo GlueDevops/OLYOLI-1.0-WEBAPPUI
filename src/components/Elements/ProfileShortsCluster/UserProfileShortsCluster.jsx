@@ -10,6 +10,14 @@ const UserProfileShortsCluster = () => {
       <div className='profile-cards-container'>
         <UserProfileShortsCard />
         <UserProfileShortsCard />
+        <UserProfileShortsCard />
+        <UserProfileShortsCard />
+        <UserProfileShortsCard />
+        <UserProfileShortsCard />
+        <UserProfileShortsCard />
+        <UserProfileShortsCard />
+        <UserProfileShortsCard />
+        <UserProfileShortsCard />
       </div>
     </section>
   );

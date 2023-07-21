@@ -51,7 +51,9 @@ const Registration = () => {
         </p>
         <p className='login-text'>Already have an account?</p>
         <button className='secondary-btn text-center'>
-          <Link to='/login'>Log into your account</Link>
+          <Link to='/login' className='d-block'>
+            Log into your account
+          </Link>
         </button>
       </form>
     </main>

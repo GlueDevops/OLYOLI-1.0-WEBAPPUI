@@ -1,21 +1,49 @@
 .shorts-view-video-container{
-  padding: 70px 0 90px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0 10px 0;
+  height: calc(100vh - 100px);
   margin: auto;
+  flex: 1;
+}
+
+@media (max-width:450px) {
+  .shorts-view-video-container{
+    padding: 0;
+    width: 100%;
+    height: fit-content;
+    flex-direction: column;
+  }
 }
 
 .shorts-view-video{
   position: relative;
-  width: 700px;
-  height:60vh;
-  margin: auto;
-  background-color: white;
+  width: 437px;
+  height:841px;
   border-radius: 16px;
-  padding: 10px;
+  border: 1px solid #ccc;
 }
-
+@media (max-height:860px) and (min-width:450px) {
+  .shorts-view-video{
+    width: 311px;
+    height:560px;
+  }
+}
+@media (max-width:450px) {
+  .shorts-view-video{
+    width: 100vw;
+    height:90vh;
+    margin-bottom: 5px;
+    border-radius: 0;
+    flex: 1;
+    border: none;
+  }
+}
+/* ================================================================ */
 .shorts-view-img{
-  width: 63px;
-  height: 63px;
+  width: 33px;
+  height: 33px;
   background-color: #ccc;
   border-radius: 50%;
 }
@@ -23,6 +51,7 @@
 .shorts-view-top{
   position: absolute;
   width: 95%;
+  padding-left: 12px;
   display: flex;
   justify-content: space-between;
   align-items: top;
@@ -30,60 +59,52 @@
 }
 .shorts-view-bottom{
   position: absolute;
-  width: 95%;
   bottom: 25px;
-  left: 40px;
+  left: 25px;
 }
 .shorts-view-follow{
   background-color: black;
   color: white;
-  font-size: 24px;
+  font-size: 12px;
   font-weight: 500;
-  width: 167px;
-  padding: 10px 14px;
+  width: 71px;
+  height: 23px;
+  padding: 0px 14px;
   border-radius: 100px;
   box-shadow: rgb(0 0 0 /25%) 0px 4px 4px 0px;
   border: none;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }
 
 .shorts-view-interact{
   border: 1px solid #ccc;
   border-radius: 43px;
-  width: 61px;
-  height: 207px;
+  width: 27px;
+  height: 82px;
+  background-color: white;
 }
 
 .shorts-view-video-icon{
   position: absolute;
-  top: calc(50% - 35px);
-  left: calc(50% - 35px);
-  width: 70px;
-  height: 70px;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  width: 60px;
+  height: 60px;
   margin: auto;
-  /* margin-bottom: 20px; */
 }
 
 .shorts-view-category{
-  font-size: 24px;
+  font-size: 12px;
   font-weight: 300;
-  line-height: 36px;
 }
-/* .shorts-view-date{
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 21px;
-} */
 
 .shorts-view-description{
-  font-size: 24px;
+  font-size: 12px;
   font-weight: 700;
-  line-height: 36px;
   
 }
 
 .shorts-view-user{
-  font-size: 24px;
+  font-size: 12px;
   font-weight: 500;
-  line-height: 36px;
 }
