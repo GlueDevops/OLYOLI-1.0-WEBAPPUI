@@ -1,5 +1,6 @@
 import { Routes, Route, Navigate } from 'react-router-dom'
 import CreateShorts from './components/Pages/CreateShorts';
+import CreateShortsUploadVideo from './components/Pages/CreateShortsUploadVideo';
 import CreateLive from './components/Pages/CreateLive';
 import ForgotPassword from './components/Pages/ForgotPassword';
 import Live from "./components/Pages/Live";
@@ -21,7 +22,8 @@ import ProfileFollowers from './components/SubPages/ProfileFollowers';
 import ProfileFollowing from './components/SubPages/ProfileFollowing';
 import UserProfileShorts from './components/SubPages/UserProfileShorts';
 import MyProfileShorts from './components/SubPages/MyProfileShorts';
-import ProfileLives from './components/SubPages/ProfileLives';
+import UserProfileLives from './components/SubPages/UserProfileLives';
+import MyProfileLives from './components/SubPages/MyProfileLives';
 
 
 function App() {
@@ -36,6 +38,7 @@ function App() {
           <Route path='/forgot-password' element={<ForgotPassword />} />
           <Route path='/shorts' element={<Shorts />} />
           <Route path='/create-shorts' element={<CreateShorts />} />
+          <Route path='/create-shorts-upload-video' element={<CreateShortsUploadVideo />} />
           <Route path='/create-live' element={<CreateLive />} />
           <Route path='/live' element={<Live />} />
           <Route path='/shorts-view' element={<ShortsView />} />
@@ -43,12 +46,12 @@ function App() {
             <Route path='followers' element={<ProfileFollowers />} />
             <Route path='following' element={<ProfileFollowing />} />
             <Route path='shorts' element={<UserProfileShorts />} />
-            <Route path='lives' element={<ProfileLives />} />
+            <Route path='lives' element={<UserProfileLives />} />
             <Route path="/user-profile" element={<Navigate to="shorts" replace />} />
           </Route>
           <Route path='/my-profile' element={<MyProfile />} >
             <Route path='shorts' element={<MyProfileShorts />} />
-            <Route path='lives' element={<ProfileLives />} />
+            <Route path='lives' element={<MyProfileLives />} />
             <Route path='followers' element={<ProfileFollowers />} />
             <Route path='following' element={<ProfileFollowing />} />
             <Route path="/my-profile" element={<Navigate to="shorts" replace />} />

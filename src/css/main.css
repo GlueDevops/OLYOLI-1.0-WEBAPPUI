@@ -165,7 +165,7 @@ body{
 /* Input fields */
 
 .input-fields{
-  width: 311px;
+  max-width: 311px;
   margin: auto;
 }
 
