@@ -1,5 +1,7 @@
 import React from "react";
 import BackArrow from "../Widgets/BackArrow";
+import BottomNav from "../Elements/BottomNav";
+
 
 const CreateShortsUploadVideo = () => {
   return (
@@ -27,7 +29,7 @@ const CreateShortsUploadVideo = () => {
           Max 1080 x 1920 Pixels. Maximum File Size 25MB
         </p>
         <div className='input-fields'>
-          <input className='input-field mb-2' type='text' placeholder='Username *' />
+          <input className='input-field mb-2' type='text' placeholder='Title *' />
           <select className='input-field mb-2'>
             <option value='' hidden>
               Choose Topic *
@@ -41,6 +43,7 @@ const CreateShortsUploadVideo = () => {
           <button className='main-btn'>Create</button>
         </div>
       </div>
+      <BottomNav />
     </main>
   );
 };

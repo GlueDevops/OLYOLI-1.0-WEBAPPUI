@@ -1,5 +1,6 @@
 .profile-cluster-container{
   width: 311px;
+  margin-bottom: 5px;
 }
 
 @media (max-width:450px) {
@@ -28,11 +29,10 @@
   gap: 38px;
   scroll-snap-type: x mandatory;
   white-space: nowrap;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
+  /* margin-bottom:50px; */
 }
-.profile-cards-container::-webkit-scrollbar {
-  display: none;
-}
+
 @media (max-width:320px) {
   .profile-cards-container{
     column-gap: 12px;

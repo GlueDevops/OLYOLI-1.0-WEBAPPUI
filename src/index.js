@@ -10,6 +10,7 @@ import { BrowserRouter } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.css';
 import './css/main.css';
 import './css/navbar.css';
+import './css/bottomNav.css';
 import './css/textContentBanner.css';
 import './css/shortsLiveCluster.css';
 import './css/shortsCard.css';

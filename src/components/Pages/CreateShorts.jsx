@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import BottomNav from "../Elements/BottomNav";
 import BackArrow from "../Widgets/BackArrow";
 
 const CreateShorts = () => {
@@ -40,6 +41,7 @@ const CreateShorts = () => {
         </p>
         <button className='main-btn'>Create</button>
       </div>
+      <BottomNav />
     </main>
   );
 };

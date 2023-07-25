@@ -2,6 +2,7 @@ import React from "react";
 import { Link, NavLink, Outlet } from "react-router-dom";
 import BackArrow from "../Widgets/BackArrow";
 import UserProfileShortsCluster from "../Elements/ProfileShortsCluster/UserProfileShortsCluster";
+import BottomNav from "../Elements/BottomNav";
 const UserProfile = () => {
   return (
     <main className='secondary-spacing'>
@@ -39,6 +40,7 @@ const UserProfile = () => {
         </nav>
         <Outlet />
       </div>
+      <BottomNav />
     </main>
   );
 };

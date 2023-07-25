@@ -32,6 +32,7 @@ body{
 /* Scrollbar */ 
 ::-webkit-scrollbar {
   width: 0.5em;
+  height: 0.5em;
   border-radius: 5px;
   
 }
@@ -69,12 +70,12 @@ body{
 }
 
 .secondary-spacing{
-  padding: 25px 87px;
+  padding: 25px 87px 50px;
   margin: auto;
 }
 @media (max-width:450px) {
   .secondary-spacing{
-    padding:25px;
+    padding:25px 25px 50px;
   }
 }
 .serif-font{

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, NavLink, Outlet } from 'react-router-dom'
+import BottomNav from '../Elements/BottomNav'
 import Notification from '../Elements/Notification'
 import BackArrow from '../Widgets/BackArrow'
 
@@ -17,6 +18,7 @@ const Notifications = () => {
         </nav>
         <Outlet />
       </div>
+      <BottomNav />
     </main>
   )
 }

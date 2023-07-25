@@ -2,6 +2,7 @@ import React from "react";
 import { Link, NavLink, Outlet } from "react-router-dom";
 import BackArrow from "../Widgets/BackArrow";
 import MyProfileShortsCluster from "../Elements/ProfileShortsCluster/MyProfileShortsCluster";
+import BottomNav from "../Elements/BottomNav";
 
 const MyProfile = () => {
   return (
@@ -11,7 +12,9 @@ const MyProfile = () => {
         {/* ------------ Top section of My profile -------------- */}
         <div className='my-profile-header'>
           <p className='my-profile-text'>My Profile</p>
-          <div className='my-profile-settings-btn'></div>
+          <Link to='/my-profile-settings' className='my-profile-settings-btn'>
+            <span class='material-symbols-outlined'>settings</span>
+          </Link>
         </div>
         <div className='my-profile-details'>
           <div className='my-profile-image'>
@@ -42,6 +45,7 @@ const MyProfile = () => {
         </nav>
         <Outlet />
       </div>
+      <BottomNav />
     </main>
   );
 };

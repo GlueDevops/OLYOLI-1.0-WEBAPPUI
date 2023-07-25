@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import BottomNav from "../Elements/BottomNav";
 import Faqs from "../Elements/Faqs";
 
 const LiveRoom = () => {
@@ -21,6 +22,7 @@ const LiveRoom = () => {
           </b>
         </div>
       </div>
+      <BottomNav />
     </div>
   );
 };

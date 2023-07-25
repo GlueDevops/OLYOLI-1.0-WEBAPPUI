@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import BottomNav from "../Elements/BottomNav";
 import BackArrow from "../Widgets/BackArrow";
 
 const CreateLive = () => {
@@ -28,7 +29,7 @@ const CreateLive = () => {
           <p className='upload-image-info'>
             250 x 250 Pixels. Maximum File Size 2MB
           </p>
-          <input className='input-field' type='text' placeholder='Username *' />
+          <input className='input-field' type='text' placeholder='Title *' />
           <select className='input-field'>
             <option value='' hidden>
               Choose Topic
@@ -81,6 +82,7 @@ const CreateLive = () => {
         </p>
         <button className='main-btn'>Create</button>
       </div>
+      <BottomNav />
     </main>
   );
 };

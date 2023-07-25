@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import BottomNav from "../Elements/BottomNav";
 import BackArrow from "../Widgets/BackArrow";
-
 const MyProfileSettings = () => {
   return (
-    <main className='secondary-spacing'>
+    <main className='secondary-spacing relative'>
       <BackArrow />
       <div className='settings-container'>
         <p className='settings-text'>My Profile Settings</p>
@@ -82,6 +82,7 @@ const MyProfileSettings = () => {
           </div>
         </form>
       </div>
+      <BottomNav />
     </main>
   );
 };
