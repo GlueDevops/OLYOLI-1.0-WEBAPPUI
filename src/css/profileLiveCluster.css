@@ -1,6 +1,7 @@
 .profile-cluster-container{
   width: 311px;
   margin-bottom: 5px;
+  position: relative;
 }
 
 @media (max-width:450px) {
@@ -20,6 +21,51 @@
   padding-bottom: 16px;
   color: black;
 }
+.profile-cards-back-arrow{
+  position: absolute;
+  top: 50%;
+  left: -20px;
+  z-index: 99;
+  border: none;
+  background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow:  rgb(0 0 0 /25%) 0px 2px 2px 0px;
+}
+@media (max-width:450px) {
+  .profile-cards-back-arrow{
+    display: none;
+  }
+}
+
+.profile-cards-back-arrow span{
+  padding-left: 8px;
+}
+
+.profile-cards-next-arrow{
+  position: absolute;
+  top: 50%;
+  right: -20px;
+  z-index: 99;
+  border: none;
+  background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow:  rgb(0 0 0 /25%) 0px 2px 2px 0px;
+}
+@media (max-width:450px) {
+  .profile-cards-next-arrow{
+    display: none;
+  }
+}
 
 .profile-cards-container{
   width: 100%;
@@ -29,7 +75,10 @@
   gap: 38px;
   scroll-snap-type: x mandatory;
   white-space: nowrap;
-  padding-bottom: 5px;
+}
+
+.profile-cards-container::-webkit-scrollbar{
+  display: none;
 }
 
 @media (max-width:320px) {

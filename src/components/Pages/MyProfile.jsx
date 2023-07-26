@@ -13,7 +13,7 @@ const MyProfile = () => {
         <div className='my-profile-header'>
           <p className='my-profile-text'>My Profile</p>
           <Link to='/my-profile-settings' className='my-profile-settings-btn'>
-            <span class='material-symbols-outlined'>settings</span>
+            <span className='material-symbols-outlined'>settings</span>
           </Link>
         </div>
         <div className='my-profile-details'>

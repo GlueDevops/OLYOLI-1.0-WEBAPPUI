@@ -6,7 +6,7 @@ const Follower = () => {
       <div className='follower-left'></div>
       <div className='follower-right'>
         <button className='follower-options'>
-          <span class='material-symbols-outlined'>more_vert</span>
+          <span className='material-symbols-outlined'>more_vert</span>
         </button>
       </div>
     </div>
