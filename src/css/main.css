@@ -13,6 +13,7 @@
   margin:0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
+  /* border:1px dashed rgb(133, 115, 0); */
 }
 
 a{
@@ -25,8 +26,23 @@ p{
   padding: 0;
 }
 body{
-  /* background-color: #E7E6E6; */
+  background-color: #E7E6E6;
   position: relative;
+}
+/* ----------------------------------------------------------------- */
+.logotext-icon{
+  width: 45px;
+  height: 45px;
+  margin: auto;
+  margin-top: 40px;
+}
+.logotext-text{
+  color: #000;
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+  padding: 14px 0 0 0;
+  margin: 0;
 }
 /* ----------------------------------------------------------------- */
 /* Scrollbar */ 
@@ -84,14 +100,16 @@ body{
 /* ----------------------------------------------- */
 /* Next and back buttons */
 .nav-btn{
-  background-color: black;
-  color: white;
+  /* background-color: black; */ /* 26-07-2023*/
+  background-color: transparent; /* 26-07-2023*/
+  /* color: white; */ /* 26-07-2023*/
+  color: black;  /* 26-07-2023*/
   font-size: 16px;
   font-weight: 500;
   width: 117px;
   padding: 5px 14px;
   border-radius: 100px;
-  box-shadow: rgb(0 0 0 /25%) 0px 4px 4px 0px;
+  /* box-shadow: rgb(0 0 0 /25%) 0px 4px 4px 0px; */ /* 26-07-2023*/
   border: none;
 }
 @media (max-width:450px) {
@@ -119,7 +137,8 @@ body{
 .arrow-back{
   width: 39px;
   margin: 0 9px 0 0 ;
-  filter: invert(100%);
+  /* filter: invert(100%); */ /* 26-07-2023*/
+  filter: invert(0); /* 26-07-2023*/
 }
 @media (max-width:450px) {
   .arrow-back{
@@ -131,7 +150,7 @@ body{
 /* ------------------------------------------------ */
 /* Main buttons  */
 .main-btn{
-  width: 311px;
+  width: 100%;
   height: 34px;
   font-weight: 700;
   font-size: 16px;
@@ -150,7 +169,7 @@ body{
   }
 }
 .secondary-btn{
-  width: 311px;
+  width: 100%;
   height: 34px;
   font-weight: 700;
   font-size: 16px;
@@ -166,17 +185,17 @@ body{
 /* Input fields */
 
 .input-fields{
-  max-width: 311px;
+  max-width: 100%;
   margin: auto;
 }
 
 .input-field{
-  width: 311px;
-  height: 27px;
+  width: 100%;
+  height: 34px;
   border: 1px solid #ccc;
   background: #F7F7F7;
   padding: 0 7px;
-  font-size: 11px;
+  font-size: 14px;
 }
 .input-field:focus{
   outline:1px solid #ccc;;
@@ -184,32 +203,39 @@ body{
 @media (max-width:450px) {
   .input-field{
     width: 100%;
-    font-size: 8px;
+    font-size: 12px;
   }
 }
 .two-cols-input-container{
-  width: fit-content;
+  width: 100%;
   display: flex;
   gap: 10px;
+  /* border:1px solid red; */
 }
+
 @media (max-width:450px) {
   .two-cols-input-container{
     width: 100%;
   }
 }
+
 .two-cols-input-field{
-  height: 27px;
+  width:100%;
+  height: 34px;
   border: 1px solid rgba(204, 204, 204, 0.80);
   background: #F7F7F7;
   padding: 0 7px;
-  font-size: 11px;
+  font-size: 14px;
+  /* border:1px solid red; */
 }
+
 .two-cols-input-field:focus{
   outline:1px solid #ccc;;
 }
+
 @media (max-width:450px) {
   .two-cols-input-field{
-    font-size: 8px;
+    font-size: 12px;
     flex: 1;
   }
 }

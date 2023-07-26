@@ -1,4 +1,10 @@
-
+.create-live-container{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width:420px;
+  /* border:1px solid red; */
+}
 
 .create-live-form{
   width: 100%;
@@ -61,29 +67,56 @@
 
 .upload-image-info{
   text-align: center;
-  font-size: 8px;
+  font-size: 12px;
   font-weight: 400;
   margin-bottom: 44px;
 }
 
 .input-bio{
   max-height: 58px;
-  min-height: 58px;
+  min-height: 70px;
+  padding-top:9px;
 }
 
 .create-live-terms{
   text-align: center;
-  max-width: 311px;
-  font-size: 8px;
+  max-width: 100%;
+  font-size: 12px;
   font-weight: 300;
   margin-top: 15px;
   margin-bottom: 10px;
 }
-@media (max-width:450px) {
-  .create-live-terms{
-    font-size: 6px;
-  }
-}
+
 .create-live-terms a{
   font-weight: 700;
+}
+
+@media (max-width:450px) {
+
+  .create-live-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width:312px;
+  }
+
+  .create-live-terms{
+    font-size: 8px;
+  }
+
+  .upload-image-info{
+    text-align: center;
+    font-size: 8px;
+    font-weight: 400;
+    margin-bottom: 44px;
+  }
+
+  .create-live-terms{
+    text-align: center;
+    max-width: 100%;
+    font-size: 9px;
+    font-weight: 300;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }  
 }

@@ -7,7 +7,7 @@ const CreateLive = () => {
   return (
     <main className='secondary-spacing'>
       <BackArrow />
-      <div className='d-flex align-items-center flex-column w-100'>
+      <div className='create-live-container'>
         <h2 className='create-live-heading'>Create Live</h2>
         <p className='create-live-paragraph'>
           Lorem Ipsum is simply dummy text of the printing

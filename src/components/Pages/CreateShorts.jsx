@@ -7,7 +7,7 @@ const CreateShorts = () => {
   return (
     <main className='secondary-spacing'>
       <BackArrow />
-      <div className='d-flex align-items-center flex-column'>
+      <div className='create-shorts-container'>
         <h2 className='create-shorts-heading'>Account Profile</h2>
         <p className='create-shorts-paragraph'>
           Please complete your profile in order to create short videos
