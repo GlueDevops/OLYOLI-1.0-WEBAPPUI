@@ -1,13 +1,13 @@
 import React from "react";
 import LiveCluster from "../Elements/LiveCluster/LiveCluster";
-import Navbar from "../Elements/Navbar/NavbarPublic";
+import NavbarPublic from "../Elements/Navbar/NavbarPublic";
 import Footer from "../Footer";
 import Searchbar from "../Widgets/Searchbar";
 
 const Live = () => {
   return (
     <div className="layout-spacing">
-      <Navbar />
+      <NavbarPublic />
       <Searchbar />
       <LiveCluster />
       <LiveCluster />

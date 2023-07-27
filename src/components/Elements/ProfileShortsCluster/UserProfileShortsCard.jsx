@@ -7,7 +7,12 @@ const UserProfileShortsCard = () => {
         <div className='profile-shorts-card-img'>
           <img src='' alt='' />
         </div>
-        <div className='profile-shorts-card-interact'></div>
+        <div className='profile-shorts-card-interact'>
+          <span className='material-symbols-outlined'>favorite</span>
+          <p>3K</p>
+          <span className='material-symbols-outlined'>chat</span>
+          <p>3K</p>
+        </div>
       </div>
       <div className='profile-shorts-card-video'>
         <img

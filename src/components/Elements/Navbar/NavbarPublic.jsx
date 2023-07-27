@@ -1,9 +1,9 @@
 import React from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
-const Navbar = () => {
+const NavbarPublic = () => {
   const { pathname } = useLocation();
   return (
-    <nav className="top-nav">
+    <nav className='top-nav'>
       <div className='navbar-container d-flex align-items-center justify-content-between'>
         {/* ----- Logo and left buttons containers ----- */}
         <div className='d-flex align-items-center gap-3'>
@@ -60,4 +60,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavbarPublic;

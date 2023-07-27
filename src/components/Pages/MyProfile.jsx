@@ -3,10 +3,12 @@ import { Link, NavLink, Outlet } from "react-router-dom";
 import BackArrow from "../Widgets/BackArrow";
 import MyProfileShortsCluster from "../Elements/ProfileShortsCluster/MyProfileShortsCluster";
 import BottomNav from "../Elements/BottomNav";
+import NavbarPrivate from "../Elements/Navbar/NavbarPrivate";
 
 const MyProfile = () => {
   return (
-    <main className='secondary-spacing'>
+    <main className='secondary-spacing-with-navbar'>
+      <NavbarPrivate/>
       <BackArrow />
       <div className='my-profile-container'>
         {/* ------------ Top section of My profile -------------- */}

@@ -27,10 +27,21 @@
 }
 
 .profile-shorts-card-interact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   border: 1px solid #ccc;
   border-radius: 22px;
   width: 14px;
   height: 35px;
+}
+
+.profile-shorts-card-interact span{
+  font-size: 6px;
+}
+.profile-shorts-card-interact p{
+  font-size: 5px;
 }
 
 .profile-shorts-card-video{

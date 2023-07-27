@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import BottomNav from "../Elements/BottomNav";
+import NavbarPrivate from "../Elements/Navbar/NavbarPrivate";
 import BackArrow from "../Widgets/BackArrow";
 const MyProfileSettings = () => {
   return (
-    <main className='secondary-spacing relative'>
+    <main className='secondary-spacing-with-navbar relative'>
+    <NavbarPrivate/>
       <BackArrow />
       <div className='settings-container'>
         <p className='settings-text'>My Profile Settings</p>

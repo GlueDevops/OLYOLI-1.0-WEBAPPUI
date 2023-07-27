@@ -10,10 +10,14 @@ const ShortsViewVideo = () => {
           <div className='shorts-view-img'>
             <img src='' alt='' />
           </div>
-          <button
+          <div
             className='shorts-view-interact'
-            onClick={() => setToggleFaqs(true)}
-          />
+            onClick={() => setToggleFaqs(true)}>
+            <span className='material-symbols-outlined'>favorite</span>
+            <p>3K</p>
+            <span className='material-symbols-outlined'>chat</span>
+            <p>3K</p>
+          </div>
         </div>
         <div className='shorts-view-video-icon'>
           <img

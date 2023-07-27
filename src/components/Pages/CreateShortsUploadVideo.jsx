@@ -1,11 +1,12 @@
 import React from "react";
 import BackArrow from "../Widgets/BackArrow";
 import BottomNav from "../Elements/BottomNav";
-
+import NavbarPrivate from "../Elements/Navbar/NavbarPrivate";
 
 const CreateShortsUploadVideo = () => {
   return (
-    <main className='secondary-spacing'>
+    <main className='secondary-spacing-with-navbar'>
+      <NavbarPrivate />
       <BackArrow />
       <div className='create-shorts-container'>
         <h2 className='create-shorts-heading'>Create Shorts</h2>

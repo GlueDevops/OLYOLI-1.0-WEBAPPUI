@@ -85,6 +85,11 @@ body{
   padding: 100px 87px;
   margin: auto;
 }
+@media (max-width:450px) {
+  .layout-spacing{
+    padding: 45px 87px;
+  }
+}
 
 .secondary-spacing{
   padding: 25px 87px 50px;
@@ -93,6 +98,15 @@ body{
 @media (max-width:450px) {
   .secondary-spacing{
     padding:25px 25px 50px;
+  }
+}
+.secondary-spacing-with-navbar{
+  padding: 100px 87px 50px;
+  margin: auto;
+}
+@media (max-width:450px) {
+  .secondary-spacing-with-navbar{
+    padding:65px 25px 50px;
   }
 }
 .serif-font{
@@ -126,7 +140,6 @@ body{
 .arrow-next{
   width: 39px;
   margin: 0  0 0 9px;
-  filter: invert(100%);
 }
 @media (max-width:450px) {
   .arrow-next{

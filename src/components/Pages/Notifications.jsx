@@ -1,12 +1,14 @@
-import React from 'react'
-import { Link, NavLink, Outlet } from 'react-router-dom'
-import BottomNav from '../Elements/BottomNav'
-import Notification from '../Elements/Notification'
-import BackArrow from '../Widgets/BackArrow'
+import React from "react";
+import { Link, NavLink, Outlet } from "react-router-dom";
+import BottomNav from "../Elements/BottomNav";
+import NavbarPrivate from "../Elements/Navbar/NavbarPrivate";
+import Notification from "../Elements/Notification";
+import BackArrow from "../Widgets/BackArrow";
 
 const Notifications = () => {
   return (
-    <main className='secondary-spacing'>
+    <main className='secondary-spacing-with-navbar'>
+      <NavbarPrivate />
       <BackArrow />
       <div className='notifications-container'>
         <h1 className='notifications-header'>Notifications</h1>
@@ -20,7 +22,7 @@ const Notifications = () => {
       </div>
       <BottomNav />
     </main>
-  )
-}
+  );
+};
 
-export default Notifications
+export default Notifications;

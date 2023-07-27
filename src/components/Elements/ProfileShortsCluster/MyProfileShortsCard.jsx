@@ -7,7 +7,12 @@ const MyProfileShortsCard = () => {
         <div className='profile-shorts-card-img'>
           <img src='' alt='' />
         </div>
-        <div className='profile-shorts-card-interact'></div>
+        <div className='profile-shorts-card-interact'>
+          <span className='material-symbols-outlined'>favorite</span>
+          <p>3K</p>
+          <span className='material-symbols-outlined'>chat</span>
+          <p>3K</p>
+        </div>
       </div>
       <div className='profile-shorts-card-video'>
         <img
@@ -22,7 +27,7 @@ const MyProfileShortsCard = () => {
           Popular belief, Lorem is simply text.
         </p>
         <p className='profile-shorts-card-user'>Gluetron eBusiness, India.</p>
-        <button className="profile-shorts-edit-btn">Edit</button>
+        <button className='profile-shorts-edit-btn'>Edit</button>
       </div>
     </div>
   );
