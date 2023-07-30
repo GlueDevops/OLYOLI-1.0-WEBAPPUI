@@ -9,7 +9,7 @@ const MyProfile = () => {
   return (
     <main className='secondary-spacing-with-navbar'>
       <NavbarPrivate/>
-      <BackArrow />
+      {/* <BackArrow /> */}
       <div className='my-profile-container'>
         {/* ------------ Top section of My profile -------------- */}
         <div className='my-profile-header'>
